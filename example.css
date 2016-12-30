@@ -1,0 +1,39 @@
+html, body, section{
+  height: 100%;
+  width:100%;
+}
+.active {
+  font-weight:bold;
+  -moz-transition: all .3s ease-out;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+ }
+ section{
+  background-color:white;
+  border-bottom:1px solid lightgray;
+ }
+ section:last-of-type{
+  border:none;
+ }
+ .quick-scroll-nav{
+  position:fixed;
+  top:0;
+  right:0;
+  padding:50px;
+  color:white;
+ }
+ h1{
+  font-size:3em;
+  padding: 100px 0;
+  border-bottom:1px solid lightgray;
+ }
+ h2{
+  font-size:2em;
+  margin:35px 0;
+ }
+ ol{
+  list-style:none;
+ }
+ li{
+   padding:10px 0;
+ }
